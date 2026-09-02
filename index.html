@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 28-08</title>
+</head>
+<body>
+
+  <!-- Sem semântica -->
+  <div class="topo">
+    <div class="menu">
+      <div><a href="/">Início</a></div>
+    </div>
+  </div>
+
+  <!-- Com semântica -->
+  <header> <!-- cabeçalho / topo do site -->
+    <nav> <!-- menu de navegação -->
+      <ul> <!-- lista não ordenada de itens do menu -->
+        <li> <!-- item da lista do menu -->
+          <a href="/">Início</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <header>
+    <img src="img/grizzly-bear.jpg" alt="Urso-pardo" width="300" height="200">
+  </header>
+
+  <nav aria-label="Menu principal">
+    <ul>
+      <li><a href="https://www.redbull.com">Link 1</a></li>
+      <li><a href="https://www.streetleague.com">Link 2</a></li>
+    </ul>
+  </nav>
+
+  <main> <!-- conteúdo principal do site -->
+    <h1>Título da página</h1>
+    <p>Conteúdo principal</p>
+  </main>
+
+  <article> <!-- conteúdo independente dentro da página -->
+    <h2>Título do post</h2>
+    <P>Texto do post faz sentido sozinho...</P>
+  </article>
+
+  <section> <!-- seção de conteúdo relacionado -->
+    <h2>Depoimentos</h2>
+    <p>Texto da seção faz sentido junto com o restante do conteúdo...</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 TFT. Todos os direitos reservados.</p>
+    <nav aria-label="Rodapé"><a href="/privacidade">Privacidade</a></nav>
+  </footer>
+</body>
+</html>
